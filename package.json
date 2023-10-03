@@ -14,25 +14,39 @@
     "url": "https://jihulab.com/dayang/fish-ui"
   },
   "dependencies": {
-    "axios": "1.4.0",
-    "core-js": "3.8.3",
-    "element-ui": "2.15.13",
+    "ant-design-vue": "1.7.8",
+    "axios": "1.5.1",
+    "cherry-markdown": "^0.8.26",
+    "core-js": "3.32.2",
+    "echarts": "5.4.3",
+    "echarts-liquidfill": "3.1.0",
+    "element-ui": "2.15.14",
     "highlight.js": "11.8.0",
     "moment": "2.29.4",
-    "nanoid": "4.0.2",
+    "nanoid": "3.3.6",
+    "pinia": "2.1.6",
     "vue": "2.7.14",
+    "vue-grid-layout": "2.4.0",
     "vue-router": "3.6.5",
     "vuex": "3.6.2"
   },
   "devDependencies": {
-    "@babel/core": "7.21.8",
-    "@babel/eslint-parser": "7.21.8",
+    "@babel/core": "7.22.15",
+    "@babel/eslint-parser": "7.22.15",
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-plugin-eslint": "5.0.8",
     "@vue/cli-plugin-router": "5.0.8",
     "@vue/cli-plugin-vuex": "5.0.8",
     "@vue/cli-service": "5.0.8",
     "eslint": "7.32.0",
+    "eslint-plugin-vue": "7.20.0",
+    "lint-staged": "10.5.4",
+    "less": "4.2.0",
+    "sass": "1.68.0",
+    "stylelint": "15.10.3",
+    "stylelint-config-standard": "34.0.0",
+    "stylelint-order": "6.0.3",
+    "vue-eslint-parser": "9.3.1",
     "vue-template-compiler": "2.7.14"
   },
   "engines": {
@@ -42,5 +56,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "eslintIgnore": ["dist/"]
 }
