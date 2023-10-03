@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import { nanoid } from "nanoid";
+import { nanoid } from 'nanoid'
 
 export default {
-  name: "MyHeader",
+  name: 'MyHeader',
   props: ['addTodo'],
   data() {
     return {
@@ -28,12 +28,12 @@ export default {
           message: '数据不能为空',
           type: 'warning',
           center: true
-        });
+        })
       }
       // 将用户的输入包装为一个 to do 对象
-      const todoObj = {id: nanoid(), title: this.title, status: false};
+      const todoObj = { id: nanoid(), title: this.title, status: false }
       // 通知 APP 组件添加这个对象
-      this.addTodo(todoObj);
+      this.addTodo(todoObj)
       // 清空输入框的数据
       this.title = ''
     },

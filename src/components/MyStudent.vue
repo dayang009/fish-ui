@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "MyStudent",
+  name: 'MyStudent',
   data() {
     return {
       msg: '我是消息'

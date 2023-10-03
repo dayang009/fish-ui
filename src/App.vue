@@ -10,22 +10,21 @@
   </div>
 </template>
 
-
 <script>
 
-import MyHeader from "@/components/MyHeader.vue";
-import MyList from "@/components/MyList.vue";
-import MyFooter from "@/components/MyFooter.vue";
+import MyHeader from '@/components/MyHeader.vue'
+import MyList from '@/components/MyList.vue'
+import MyFooter from '@/components/MyFooter.vue'
 
 export default {
   name: 'App',
-  components: {MyFooter, MyList, MyHeader},
+  components: { MyFooter, MyList, MyHeader },
   data() {
     return {
       todos: [
-        {id: '001', title: '吃饭', status: true},
-        {id: '002', title: '喝酒', status: true},
-        {id: '003', title: '开车', status: false}
+        { id: '001', title: '吃饭', status: true },
+        { id: '002', title: '喝酒', status: true },
+        { id: '003', title: '开车', status: false }
       ]
     }
   },
@@ -35,14 +34,14 @@ export default {
     },
     checkTodo(id) {
       this.todos.forEach((todoObj) => {
-          if (todoObj.id === id) {
-            todoObj.status = !todoObj.status
-          }
+        if (todoObj.id === id) {
+          todoObj.status = !todoObj.status
         }
+      }
       )
     },
     deleteTodo(id) {
-      this.todos = this.todos.filter( todo => todo.id !== id)
+      this.todos = this.todos.filter(todo => todo.id !== id)
     },
   }
 }

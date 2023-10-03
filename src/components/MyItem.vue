@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "MyItem",
+  name: 'MyItem',
   props: ['todo', 'checkTodo', 'deleteTodo'],
   methods: {
     handleCheck(id) {
@@ -29,12 +29,12 @@ export default {
         this.$message({
           type: 'success',
           message: '删除成功!'
-        });
+        })
       }).catch(() => {
         this.$message({
           type: 'info',
           message: '已取消删除'
-        });
+        })
       })
     },
   }

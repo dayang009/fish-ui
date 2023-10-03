@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import MyItem from "@/components/MyItem.vue";
+import MyItem from '@/components/MyItem.vue'
 
 export default {
-  name: "MyList",
-  components: {MyItem},
+  name: 'MyList',
+  components: { MyItem },
   props: ['todos', 'checkTodo', 'deleteTodo'],
 }
 </script>

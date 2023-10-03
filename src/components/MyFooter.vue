@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "MyFooter",
+  name: 'MyFooter',
   props: ['todos'],
   computed: {
     doneTotal() {

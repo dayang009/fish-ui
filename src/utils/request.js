@@ -55,4 +55,3 @@ services.interceptors.response.use(
 )
 
 export default services
-
