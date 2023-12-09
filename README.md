@@ -33,6 +33,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 依赖                             | 本项目版本 | 新版                                                         | 说明 |
 | -------------------------------- | ---------- | ------------------------------------------------------------ | ---- |
 | @element-plus/icons-vue          | 2.1.0      | ![img](https://img.shields.io/npm/v/@element-plus/icons-vue) |      |
+| ant-design-vue                   | 1.7.8      | ![img](https://img.shields.io/npm/v/ant-design-vue)          |      |
 | @tauri-apps/api                  | 1.4.0      | ![img](https://img.shields.io/npm/v/@tauri-apps/api)         |      |
 | @toast-ui/editor                 | 3.2.2      | ![img](https://img.shields.io/npm/v/@toast-ui/editor)        |      |
 | @wangeditor/editor-for-vue       | 5.1.12     | ![img](https://img.shields.io/npm/v/@wangeditor/editor-for-vue/next) |      |
