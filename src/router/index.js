@@ -1,3 +1,5 @@
+'use strict'
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
@@ -22,7 +24,17 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('@/layouts/index.vue'),
-  }
+  },
+  {
+    path: '/demo',
+    name: 'demo',
+    component: () => import('@/views/MyDemo.vue'),
+  },
+  {
+    path: '/study',
+    name: 'Study',
+    component: () => import('@/views/Study.vue'),
+  },
 ]
 
 const router = new VueRouter({

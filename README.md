@@ -71,3 +71,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | unplugin-vue-components          | 0.25.2     | ![img](https://img.shields.io/npm/v/unplugin-vue-components?color=blue) |      |
 | vite                             | 4.4.9      | ![img](https://img.shields.io/npm/v/vite)                    |      |
 | vue-tsc                          | 1.8.11     | ![img](https://img.shields.io/npm/v/vue-tsc)                 |      |
+
+
+
+## ref属性
+
+1. 被用来给元素或子组件注册引用信息（id的替代者）
+2. 应用在 html 标签上获取的是真实的DOM元素，应用在组件标签上是组件的实例对象（vc）
+3. 使用方式：打标识：`<h1 ref="xxx">......</h1>` 或者 `<School ref="xxx"></School>`
+4. 获取：`this.$refs.xxx`
+
